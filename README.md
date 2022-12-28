@@ -35,5 +35,5 @@ I developed a Chrome extension. You can save any website address or the website 
 
 _____
 
-### Don't Forget Pinning the Extension
+### :heavy_check_mark: Don't Forget Pinning the Extension
 ![dont forget](https://user-images.githubusercontent.com/102172877/209808124-720a1135-97ba-4fd7-ad33-d627f130cdea.png)
