@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+body {
+    max-width: 400px;
+    min-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1f1f1f;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #3f4197;
+    transition: .4s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 20px #5153c2;
+}
+
+button {
+    cursor: pointer;
+    background: #2e2f82;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+}
+
+button:hover {
+    background: #24255e;
+}
+
+.saveInput {
+    width: 100%;
+    margin-block: 7px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns>* {
+    width: 190px;
+}
+
+.deleteBtn {
+    background-color: #2e2f8251;
+    border: 3px solid #2e2f82;
+}
+
+ul {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 25px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+li::marker {
+    content: '→';
+}
+
+a {
+    color: #fff;
+    margin-left: 10px;
+}
